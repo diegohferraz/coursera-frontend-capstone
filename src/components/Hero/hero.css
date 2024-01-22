@@ -1,0 +1,63 @@
+.hero {
+  padding-top: 1.875rem;
+  background-color: var(--main-green);
+}
+
+.hero .container {
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  margin-bottom: 9.375rem;
+}
+
+.heroInformation {
+  grid-column: 1;
+}
+
+.heroInformation h1 {
+  color: var(--main-yellow);
+}
+
+.heroInformation h2 {
+  color: var(--white);
+}
+
+.heroInformation p {
+  margin-top: 1.5rem;
+  color: var(--white);
+}
+
+.heroInformation .buttonPrimary {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.heroInformation .buttonPrimary:hover,
+.heroInformation .buttonPrimary:focus {
+  border-color: var(--main-yellow);
+}
+
+.heroImage {
+  grid-column: 2;
+  width: 100%;
+  height: 24rem;
+  margin-bottom: -4.375rem;
+  justify-self: end;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+@media (max-width: 792px) {
+  .hero .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .heroInformation {
+    grid-row: 1;
+  }
+
+  .heroImage {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}

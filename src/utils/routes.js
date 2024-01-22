@@ -1,14 +1,4 @@
-// pages.set("home");
-// pages.set("about");
-// pages.set("menu");
-// pages.set("bookings");
-// pages.set("confirmedBooking", {
-//   name: "Confirmed Booking",
-//   path: "/confirmed-booking",
-//   anchorable: false,
-// });
-// pages.set("orderOnline", );
-// pages.set("login", );
+//"/confirmed-booking",
 
 export const ROUTES = [
   { name: "Home", path: "/" },
