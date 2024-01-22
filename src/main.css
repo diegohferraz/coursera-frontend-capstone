@@ -5,9 +5,11 @@
 
 :root {
   --main-green: #495e57;
+  --pale-green: #edefee;
   --main-yellow: #f4ce14;
   --orange: #ee9972;
   --white: #fff;
+  --gray: #adafae;
 }
 
 body {
